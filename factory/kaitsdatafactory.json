@@ -1,0 +1,9 @@
+{
+	"name": "kaitsdatafactory",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4b4b7d70-a546-406b-b285-2d02020d9a55",
+		"tenantId": "b1d84cff-88d9-47e4-a77c-4623ae1435ad"
+	}
+}

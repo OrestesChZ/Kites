@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "https://raw.githubusercontent.com/OrestesChZ/Kites/refs/heads/main/Input/CustomerData.csv"
+				"relativeUrl": "OrestesChZ/Kites/refs/heads/main/Input/CustomerData.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",

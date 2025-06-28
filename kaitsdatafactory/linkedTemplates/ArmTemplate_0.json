@@ -93,6 +93,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "CustomerData.csv",
 						"folderPath": "inbox",
 						"fileSystem": "kaits"
 					},

@@ -8,8 +8,17 @@
 		"ls_datalake_accountKey": {
 			"value": ""
 		},
+		"ls_github_password": {
+			"value": ""
+		},
 		"ls_datalake_properties_typeProperties_url": {
 			"value": "https://kaitsdatalake.dfs.core.windows.net/"
+		},
+		"ls_github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_github_properties_typeProperties_userName": {
+			"value": "adminochz"
 		},
 		"containerUri": {
 			"value": ""

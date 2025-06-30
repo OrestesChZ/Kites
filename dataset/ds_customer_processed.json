@@ -1,0 +1,27 @@
+{
+	"name": "ds_customer_processed",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_datalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "CustomerData_@{formatDateTime(utcNow(),'yyyyMMdd_HHmmss')}.csv\n",
+					"type": "Expression"
+				},
+				"folderPath": "processed",
+				"fileSystem": "kaits"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

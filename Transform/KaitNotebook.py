@@ -4,7 +4,7 @@ from functools import reduce
 import os
 
 # Configuración de acceso segura mediante variables de entorno
-DATALAKE_KEY = os.getenv("DATALAKE_KEY")  # Asegúrate de definir esta variable en el entorno de Databricks
+DATALAKE_KEY = os.getenv("DATALAKE_KEY") 
 SQL_USER = os.getenv("SQL_USER")
 SQL_PASSWORD = os.getenv("SQL_PASSWORD")
 SQL_URL = "jdbc:sqlserver://kaitssqlserver.database.windows.net:1433;database=kaits"

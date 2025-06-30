@@ -314,7 +314,7 @@
 					"location": {
 						"type": "AzureBlobFSLocation",
 						"fileName": {
-							"value": "CustomerData_@{formatDateTime(utcNow(),'yyyyMMdd_HHmmss')}.csv\n",
+							"value": "concat('CustomerData_', formatDateTime(utcNow(),'yyyyMMdd_HHmmss'), '.csv')\n",
 							"type": "Expression"
 						},
 						"folderPath": "processed",
